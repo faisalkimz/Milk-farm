@@ -1,0 +1,26 @@
+.goodnessseccont img{
+    width: 100%;
+}
+.buttermilk{
+    background-color: #fff;
+    padding: 50px 40px;
+    border: 1px solid #efe8e1;
+    padding-bottom: 20px;
+}
+.smbg{
+    background-color: #fff;
+
+}
+.curdbgpro{
+    background-color: #fff;
+}
+.mlkpro{
+    color: #636362;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.goodnesssec a{
+    text-decoration: none;
+}
