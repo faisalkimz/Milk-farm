@@ -39,16 +39,18 @@
             <a class="nav-link text-white" href="#">Contact us</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-toggle="dropdown" >
-              Products
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Milk</a></li>
-              <li><a class="dropdown-item" href="#">Yougut</a></li>
-              <li><a class="dropdown-item" href="#">Ice Cream</a></li>
-              <li><a class="dropdown-item" href="#">Gee</a></li>
-              <li><a class="dropdown-item" href="#">Sweets</a></li>
-            </ul>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-toggle="dropdown" >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{% url 'category' 'ML' %}">Milk</a></li>
+                <li><a class="dropdown-item" href="{% url 'category' 'FR' %}">Freabies</a></li>
+                <li><a class="dropdown-item" href="{% url 'category' 'CR' %}">Curd</a></li>
+                <li><a class="dropdown-item" href="{% url 'category' 'GH' %}">Ghee</a></li>
+                <li><a class="dropdown-item" href="{% url 'category' 'CA' %}">Cakes</a></li>
+                <li><a class="dropdown-item" href="{% url 'category' 'CK' %}">Cookies</a></li>
+                <li><a class="dropdown-item" href="{% url 'category' 'CT' %}">Choclate</a></li>
+              </ul>
           </li>
         </ul>
         <form class="d-flex" role="search">
